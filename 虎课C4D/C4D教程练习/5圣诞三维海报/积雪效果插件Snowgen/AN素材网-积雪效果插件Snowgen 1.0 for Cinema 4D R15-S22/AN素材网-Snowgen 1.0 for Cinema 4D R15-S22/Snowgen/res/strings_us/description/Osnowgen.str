@@ -1,0 +1,31 @@
+STRINGTABLE Osnowgen
+{
+    Osnowgen           "Snowgen"                        ;
+
+    SNOWGEN_OBJS       "Objects"                        ;
+             
+    SNOWGEN_POINTS     "Points Count"                   ;
+    SNOWGEN_SIZE       "Points Scale"                   ;
+      
+    SNOWGEN_HULL       "Melting"                        ;
+    SNOWGEN_SEED       "Seed"                           ;
+ 
+ 
+ 
+    SDS_GROUP          "Subdivision"                    ;
+ 
+    SNOWGEN_USE_SUB_T  "Subdivision Method"             ;
+ 
+    SNOWGEN_USE_SUB_E  "Use Subdivision Editor"         ;
+    SNOWGEN_USE_SUB_R  "Use Subdivision Renderer"       ;
+ 
+    SNOWGEN_SDM_E      "Subdivision Editor - Size"      ;
+    SNOWGEN_SDM_R      "Subdivision Render - Size"      ;
+
+    SNOWGEN_SDS_E      "Subdivision Editor - Polygons"  ;
+    SNOWGEN_SDS_R      "Subdivision Render - Polygons"  ;
+
+    SNOWGEN_MESH_MODE  "Meshing Mode"                   ;
+    SNOWGEN_MESH_MBALL "Metaball"                       ;
+    SNOWGEN_MESH_OVDB  "Open VDB"                       ;
+}

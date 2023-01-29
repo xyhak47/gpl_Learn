@@ -1,0 +1,91 @@
+STRINGTABLE reeper
+{
+	reeper "Reeper Object";
+
+	REEPER_GROUP_GEN			"\u5e38\u89c4";
+		REEPER_COILS			"\u7ebf\u5708";
+		REEPER_STRANDS			"\u7ebf";
+		REEPER_RAD				"\u534a\u5f84";
+		REEPER_DIS				"\u8ddd\u79bb";			
+				
+	REEPER_GROUP_MOD			"\u6a21\u5f0f";
+		REEPER_MODE				"\u6a21\u5f0f";	
+			REEPER_MODE_ROPE		"\u76d8\u7ef3\uff08\u591a\u7ebf\uff09";	
+			REEPER_MODE_BRAID		"\u7b80\u5355\u7f16\u7ec7\uff08\u0033\u7ebf\uff09";
+			REEPER_MODE_LISSAJOUS_3	"\u66f2\u7ebf\u7f16\u7ec7\uff08\u0033\u7ebf\uff09";			
+			REEPER_MODE_LISSAJOUS_5	"\u66f2\u7ebf\u7f16\u7ec7 \u0028\u0035\u0020\u7ebf\u0029";
+			
+	REEPER_MESSAGE_TEXT			"Reeper needs a Spline Child to work.";
+			
+	REEPER_GROUP_OPT			"\u9009\u9879";		
+		REEPER_ROTA				"\u65cb\u8f6c";
+		REEPER_OFFSET			"\u504f\u79fb";
+		REEPER_FROM				"\u5f00\u59cb";
+		REEPER_TO				"\u7ed3\u675f";		
+		REEPER_FORM				"\u5f00\u59cb";
+		REEPER_MULTISHADE_MODE	"\u591a\u9634\u5f71\u6a21\u5f0f";
+	
+	REEPER_GROUP_INT			"\u63d2\u503c";
+		REEPER_PATH_TEXT		"\u7ebf\u002d\u8def\u5f84";
+			
+		REEPER_INTERPOLATION				"\u4e2d\u95f4\u70b9";
+			REEPER_INTERPOLATION_NONE		"\u65e0";
+			REEPER_INTERPOLATION_NATURAL	"\u81ea\u7136\u000d\u000a";
+			REEPER_INTERPOLATION_UNIFORM	"\u5747\u5300";
+			REEPER_INTERPOLATION_ADAPTIVE	"\u81ea\u9002\u5e94";
+			REEPER_INTERPOLATION_SUBDIV		"\u7ec6\u5206";
+		REEPER_SUB							"\u6570\u91cf";
+		REEPER_ANGLE						"\u89d2\u5ea6";
+		REEPER_MAXIMUMLENGTH				"\u6700\u5927\u957f\u5ea6\u000d\u000a";
+		
+		REEPER_RAD_TEXT						"\u534a\u5f84\u002d\u8def\u5f84:";		
+		REEPER_NSIDES						"\u9762";	
+		
+		
+		REEPER_GROUP_SWEEP						"\u7ebf";
+			REEPER_SWEEPOBJECT_ISOPARM			"\u7b49\u5206\u7ec6\u5206";
+			REEPER_SWEEPOBJECT_STARTGROWTH		"\u5f00\u59cb\u751f\u957f";
+			REEPER_SWEEPOBJECT_GROWTH			"\u7ed3\u675f\u751f\u957f";
+			REEPER_SWEEPOBJECT_SCALE			"\u7f29\u653e\u6bd4\u4f8b";
+			REEPER_SWEEPOBJECT_ROTATE			"\u65cb\u8f6c";
+			REEPER_SWEEPOBJECT_PARALLEL			"\u6241\u5e73";			
+			REEPER_SWEEPOBJECT_CONSTANT			"\u4fdd\u6301\u4ea4\u53c9\u90e8\u5206";
+			REEPER_SWEEPOBJECT_BANKING			"\u66f2\u7ebf\u4f18\u5316";			
+			REEPER_SWEEPOBJECT_KEEPSEGMENTS		"\u4fdd\u7559\u90e8\u5206";			
+		
+		
+		REEPER_GROUP_CAPSANDROUNDING					"\u5c01\u53e3\u000d\u000a";
+			ID_NURBS_U									"U \u65b9\u5411";
+			ID_NURBS_V									"V \u65b9\u5411";
+
+			REEPER_CAP_START							"\u5f00\u59cb\u5e3d" "\u8d77\u70b9";
+			REEPER_CAP_END								"\u7ed3\u675f\u5e3d" "\u7ed3\u675f";
+				REEPER_CAPTYPE_NOCAP					"\u65e0";
+				REEPER_CAPTYPE_CAP						"\u5e3d";
+				REEPER_CAPTYPE_ROUNDING					"\u7247";
+				REEPER_CAPTYPE_ROUNDINGANDCAP			"\u7247 \u5e3d";
+			REEPER_CAP_ROUNDING							"\u7247\u7c7b\u578b";
+				REEPER_CAP_ROUNDING_LINEAR				"\u76f4\u7ebf";
+				REEPER_CAP_ROUNDING_CONVEX				"\u51f8\u9762";
+				REEPER_CAP_ROUNDING_CONCAVE				"\u51f9\u9762";
+				REEPER_CAP_ROUNDING_HALFCIRCLE 			"\u534a\u5706";
+				REEPER_CAP_ROUNDING_STEP				"\u4e00\u6b65";
+				REEPER_CAP_ROUNDING_2STEPS				"\u4e8c\u6b65";
+				REEPER_CAP_ROUNDING_ENGRAVED			"\u96d5\u523b";
+			REEPER_CAP_STARTSTEPS						"Start Cap Steps" "\u6b65\u9aa4";
+			REEPER_CAP_ENDSTEPS							"End Cap Steps" "\u6b65\u9aa4";
+			REEPER_CAP_STARTRADIUS						"Start Cap Radius" "Radius";
+			REEPER_CAP_ENDRADIUS						"End Cap Radius" "Radius";
+			REEPER_CAP_HULLINWARD						"\u5916\u58f3\u5411\u5185";
+			REEPER_CAP_HOLEINWARD						"\u5b54\u5185";
+			REEPER_CAP_CONSTRAIN						"\u9650\u5236";
+			REEPER_CAP_CONNECT							"\u521b\u5efa\u5355\u72ec\u7684\u5bf9\u8c61";
+			REEPER_CAP_UVWROUDING						"Rounding UVW Keep Shape";
+			REEPER_CAP_TYPE								"\u7c7b\u578b";
+				REEPER_CAP_TYPE_TRI						"\u4e09\u89d2";
+				REEPER_CAP_TYPE_QUAD					"\u56db\u8fb9";
+				REEPER_CAP_TYPE_NGON					"N-gons";
+			REEPER_CAP_REGULAR							"\u89c4\u5219\u7f51\u683c";
+			REEPER_CAP_REGULARWIDTH						"\u89c4\u5219\u7f51\u683c\u7684\u5bbd\u5ea6" "\u5bbd\u5ea6";
+			REEPER_CAP_PHONG							"Phong Angle";
+}
